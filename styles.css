@@ -23,7 +23,8 @@ body {
   background-image: linear-gradient(rgb(46, 2, 16), rgb(121, 0, 39));
   justify-content: space-around;
   display: flex;
-  height: 550px;
+  /* i updated this */
+  min-height: 550px;
   overflow: hidden;
   position: relative;
   margin-bottom: 80px;
@@ -48,8 +49,9 @@ li {
 }
 
 .logo {
-  height: 40px;
-  width: 100px;
+  /* i updated these 2 */
+  min-height: 40px;
+  max-width: 100px;
   margin: 15px;
 }
 
@@ -58,8 +60,9 @@ li {
 }
 
 .background-image {
-  height: 500px;
-  width: 630px;
+  /* i updated these 2 */
+  min-height: 500px;
+  max-width: 630px;
   position: absolute;
   bottom: -60px;
   right: -30px;
@@ -83,8 +86,9 @@ li {
 }
 
 .left-box-section-2 {
+  /* i updated this */
   background: rgb(131, 3, 43);
-  width: 50%;
+  max-width: 50%;
   padding: 50px;
 }
 
@@ -111,8 +115,9 @@ p {
 }
 
 .festive {
-  height: 500px;
-  width: 400px;
+  /* i updated these 2 */
+  min-height: 500px;
+  max-width: 400px;
   margin: 20px;
 }
 
@@ -142,9 +147,10 @@ p {
 }
 
 .section-3 {
+  /* i updated these 2 */
   background-color: white;
-  width: 1020px;
-  height: 400px;
+  max-width: 1020px;
+  min-height: 400px;
   margin-top: 80px;
   margin-left: 90px;
   position: relative;
@@ -153,8 +159,9 @@ p {
 }
 
 .right-section-2-image {
-  height: 250px;
-  width: 340px;
+  /* i updated these 2 */
+  min-height: 250px;
+  max-width: 340px;
   margin: 50px;
 }
 
@@ -196,12 +203,14 @@ p {
     rgb(46, 2, 16),
     rgb(121, 0, 39)
   );
-  width: 50%;
+  /* i updated this */
+  max-width: 50%;
 }
 
 .right-text-box {
   background-color: #eeeee6;
-  width: 50%;
+  /* i updated these 2 */
+  max-width: 50%;
 }
 
 .text4 {
@@ -230,8 +239,9 @@ li {
 }
 
 .penguin-image {
-  width: 170px;
-  height: 160px;
+  /* i updated these 2 */
+  max-width: 170px;
+  min-height: 160px;
   position: absolute;
   bottom: 20px;
   right: 20px;
